@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #585757;
+}
+
+h1{
+    padding: 30px;
+    margin-left: 50px;
+}
+
+.main-container{
+
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 85%;
+    height: 90%;
+    background: #FBFBFB;
+    box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.buttonAsk{
+    width: 170px;
+    height: 40px;
+    background: #FF7D7D;
+    box-shadow: 0px 4px 19px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+.buttonAsk:hover{
+    background-color: #d83b3b;
+}
+
+
+.area-1{
+    width: 12%;
+    height: 100%;
+    background-color: #E5E5E5;
+    float: left;
+    border-radius: 50px 0 0 50px;
+}
+
+.icons-left{
+    height: 100%;
+    border-right: 1px solid rgb(175, 175, 175);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.icons-left > img{
+    width: 60px;
+    height: 60px;
+}
+
+.area-2{
+    width: 68%;
+    height: 100%;
+    float: left;
+    background-color: #E5E5E5;
+}
+
+.leanings{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2px
+}
+
+.leanType{
+    width: 190px;
+    height: 150px;
+    float: left;
+    background: #FBFBFB;
+    box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.leanType > img{
+    width: 81px;
+    height: 59px;
+    margin: 40px 0 0 20px;
+}
+
+.leanType > h4{
+    margin: 0 0 0 30px;
+    color: #858585;
+}
+
+.account-status > h2{
+    padding: 10px;
+    margin: 50px 0 0 80px;
+    font-size: 30px;
+    color: #858585;
+}
+
+.account-status > h3{
+    padding: 10px;
+    margin: 10px 0 0 80px;
+    color: #8f8a8a;
+}
+
+.area-2 > .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.area-3{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 0 50px 50px 0;
+}
+
+.logo > img{
+    width: 180px;
+    height: 115px;
+}
+
+.credit-target{
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.info-credit-tarjet{
+    display: flex;
+    align-items: initial;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.info-credit-tarjet > h5{
+    padding: 5px;
+    color: #6e6b6b;
+}
